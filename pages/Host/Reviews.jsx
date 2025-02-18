@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react"
 
-const Reviews = () => {
-  return (
-    <div>Reviews</div>
-  )
+export default function Reviews() {
+    return (
+        <h1>Reviews page goes here</h1>
+    )
 }
-
-export default Reviews

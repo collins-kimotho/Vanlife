@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react"
 
-const Income = () => {
-  return (
-    <div>Income</div>
-  )
+export default function Income() {
+    return (
+        <h1>Income page goes here</h1>
+    )
 }
-
-export default Income
