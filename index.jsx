@@ -12,6 +12,8 @@ import Dashboard from './pages/Host/Dashboard';
 import Reviews from './pages/Host/Reviews';
 import Income from './pages/Host/Income';
 import HostLayout from './components/HostLayout';
+import HostVans from './pages/Host/HostVans';
+import HostDetail from './pages/Host/HostDetail';
 
 
 
@@ -27,6 +29,8 @@ function App() {
           
           <Route path='/host' element={<HostLayout />}>
             <Route path='/host/income' element={<Income/>} />
+            <Route path='/host/vans' element={<HostVans />} />
+            <Route path='/host/vans/:id' element={<HostDetail />} />
             <Route path='/host/reviews' element={<Reviews />} />
           </Route>
         </Route>
