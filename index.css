@@ -355,3 +355,50 @@ i[class*='van-type-'] {
 .host-van-info p {
     margin-block: 10px;
 }
+
+.host-van-detail-layout-container {
+    background-color: white;
+    padding: 24px;
+    margin: 30px 26px;
+   
+}
+
+.host-van-detail {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+}
+
+.host-van-detail > img {
+    height: 160px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+
+.host-van-detail-info-text > h2 {
+    font-size: 30px;
+}
+
+.host-van-detail-info-text > p {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.back-button {
+    margin: 30px;
+    color: #161616;
+    text-decoration: none;
+}
+
+.host-nav-detail-nav {
+    margin-top: 20px;
+}
+
+.host-nav-detail-nav > a {
+    text-decoration: none;
+    color: #161616;
+    margin-right: 20px;
+    
+}
